@@ -2,13 +2,6 @@
 
 This site allows users to browse cities and information about them using our database. They can pick multiple cities and aggregate them into a "vacation," where the user can access it upon login.
 
-## Site Color Scheme
-Try to stick to these colors.
-https://coolors.co/393e41-d3d0cb-e2c044-587b7f-1e2019
-
-## Site URL and File Structure
-cs.umw.edu/~cringham/vacations/_site page or folder here_
-
 ## Database Access
 Do `<?php include 'connect_db.php'; ?>`. From here you should be connected, and you can use the variable `$connection` in DB queries.
 
