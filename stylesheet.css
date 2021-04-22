@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    color: #1E2019;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: #1E2019;
+}
+
+.header a {
+    text-decoration: none;
+    color: #1E2019;
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.navigation-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1E2019;
+}
+
+.navigation-menu li {
+    float: left;
+}
+
+.navigation-menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #D3D0CB;
+}
+
+.featured-city {
+    display: block;
+    float: left;
+    padding: 20px 20px;
+    width: 33.33%;
+    border: 30px solid white;
+    background-color: #587B7F;
+    box-sizing: border-box;
+}
+
+.featured-city h2 {
+    color: #1E2019;
+    text-decoration: none;
+    text-align: center;
+}
+
+.featured-city img {
+    width: 100%;
+}
+
+.featured-city:hover {
+    opacity: 0.7;
+}
+
+.city-list {
+    margin: auto;
+    margin-bottom: 5%;
+    border: 1px solid #1E2019;
+    background-color: #1E2019;
+    width: 80%;
+}
+
+.tab {
+    height: 50px;
+    width: 100%;
+    padding: 8px;
+    font-size: 200%;
+    text-align: left;
+    border: 1px solid #1E2019;
+    background-color: #587B7F;
+    cursor: pointer;
+}
+
+.city-list .tab:hover {
+    color: #5B5C57;
+    background-color: #769396;
+}
+
+.signin-button {
+    display: block;
+    border: none;
+    width: 100px;
+    padding: 10px;
+    background-color: white;
+    color: #1E2019;
+}
+
+.account-button {
+    display: block;
+    float: right;
+    border: 1px solid #1E2019;
+    width: 50%;
+    padding: 10px;
+    background-color: white;
+    color: #1E2019;
+}
+
+.signin-button:hover, .account-button:hover {
+    background-color: gainsboro;
+    color: #1E2019;
+    cursor: pointer;
+}
+
+.signin-field {
+    width: 100%;
+}
+
+.signin-field input[type=text], input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.signin-field input[type=submit] {
+    width: 100%;
+    background-color: #587B7F;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.signin-field input[type=submit]:hover {
+    background-color: #507074;
+}
+
+.signin-field div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.content-field {
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+table,
+td {
+    border: 1px solid #333;
+}
