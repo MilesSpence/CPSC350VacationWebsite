@@ -8,7 +8,3 @@ Do `<?php include 'connect_db.php'; ?>`. From here you should be connected, and 
 ## Sessions
 When a user signs in, we track their presence/data across our site using _sessions_. Having an active session means we can store info about our user across site pages.
 If you need to identify a user due to unique querying on your webpage, use `<?php $_SESSION["email"]; ?>` to access the email of a user who visits your page - maybe store it in a variable for use on your queries.
-
-## Tidbits
-Include the site header at the top of every publicly-facing page:
-`<?php include 'header.php'; ?>`
